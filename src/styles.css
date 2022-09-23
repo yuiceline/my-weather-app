@@ -193,10 +193,6 @@ strong {
     margin-bottom: 5px;
   }
 
-  .buttons {
-    margin: 0 auto;
-  }
-
   #world-icon {
     display: none;
   }
@@ -213,9 +209,4 @@ strong {
     margin: 0;
   }
 
-  .buttons {
-    display: block;
-    margin: 0;
-    width: 150px;
-  }
 }
