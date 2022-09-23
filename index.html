@@ -24,6 +24,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/styles.css" />
+    <meta name="viewport" content="width=360,initial-scale=1">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
   <body>
@@ -91,7 +92,11 @@
         </div>
         <div class="wrapper-bottom">
           <div>
-            <img src="img/around_the_world.svg" alt="world-icon" id="world-icon">
+            <img
+              src="img/around_the_world.svg"
+              alt="world-icon"
+              id="world-icon"
+            />
           </div>
           <form id="check-form">
             <div class="col">
@@ -103,21 +108,20 @@
                 required
               />
             </div>
-          <div class="buttons">
-              <div class="col">
-              <input
-                type="submit"
-                class="btn btn-primary check-button"
-                value="SEARCH"
-                id="search-button"
-              />
+                <input
+                  type="submit"
+                  class="btn btn-primary check-button"
+                  value="SEARCH"
+                  id="search-button"
+                />
+                <button
+                  class="btn btn-primary check-button"
+                  id="location-button"
+                >
+                  Current
+                </button>
+         
             </div>
-            <div class="col-12">
-              <button class="btn btn-primary check-button" id="location-button">
-                Current Location
-              </button>
-            </div>
-          </div>
           </form>
         </div>
       </div>
