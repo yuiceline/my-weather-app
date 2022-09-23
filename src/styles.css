@@ -153,11 +153,11 @@ strong {
 @media (max-width: 620px) {
   body {
     text-align: center;
-    font-size: smaller;
+    margin: 50px;
   }
-
+  
   h4 {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 
   .row {
@@ -169,6 +169,14 @@ strong {
   .col-2 {
     margin: 0 auto;
     padding-bottom: 15px;
+  }
+
+  h5 {
+    font-size: 24px;
+  }
+
+  .weather-icon {
+    width: 50px;
   }
 
   .wrapper-bottom {
