@@ -156,19 +156,22 @@ strong {
     margin: 50px;
   }
   
+  #temperature-original {
+    font-size: 70px;
+  }
   h4 {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   .row {
-    padding-top: 30px;
     display: block;
     font-size: larger;
+    padding-bottom: 30px;
   }
 
   .col-2 {
     margin: 0 auto;
-    padding-bottom: 15px;
+    padding: 0;
   }
 
   h5 {
@@ -177,6 +180,7 @@ strong {
 
   .weather-icon {
     width: 50px;
+    padding-bottom: 20px;
   }
 
   .wrapper-bottom {
